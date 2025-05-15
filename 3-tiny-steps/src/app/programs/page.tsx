@@ -21,8 +21,8 @@ export default function ProgramsPage() {
               <div key={index} className="bg-white dark:bg-gray-700 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden">
                 <div className="relative h-48">
                   <Image 
-                //   src={program.image || "/placeholder.svg"} 
-                src="/placeholder.svg?height=550&width=750"
+                  src={program.image || "/placeholder.svg"} 
+                // src="/placeholder?height=550&width=750"
                   alt={program.title} fill className="object-cover" />
                 </div>
                 <div className="p-6">

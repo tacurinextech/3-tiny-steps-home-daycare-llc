@@ -10,12 +10,12 @@ export default function AboutPage() {
         <div className="container max-w-7xl mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[500px] rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=550&width=750" alt="Our daycare facility" fill className="object-cover" />
+              <Image src="/tinysteps.jpeg?height=550&width=750" alt="Our daycare facility" fill className="object-cover" />
             </div>
             <div>
               <h1 className="text-3xl font-bold text-primary mb-4">About {config.COMPANY.ALIAS}</h1>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                {`Founded in 2015, ${config.COMPANY.NAME} was born from a passion for early childhood development
+                {`Founded in 2022, ${config.COMPANY.NAME} was born from a passion for early childhood development
                 and a desire to provide families with quality childcare in a home-like setting.`}
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
@@ -102,16 +102,16 @@ export default function AboutPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="relative h-[200px] rounded-lg overflow-hidden">
-                <Image src="/placeholder.svg?height=550&width=750" alt="Play area" fill className="object-cover" />
+                <Image src="/img/facility_1.JPG?height=550&width=750" alt="Play area" fill className="object-cover" />
               </div>
               <div className="relative h-[200px] rounded-lg overflow-hidden">
-                <Image src="/placeholder.svg?height=550&width=750" alt="Reading corner" fill className="object-cover" />
+                <Image src="/img/facility_2.JPG?height=550&width=750" alt="Reading corner" fill className="object-cover" />
               </div>
               <div className="relative h-[200px] rounded-lg overflow-hidden">
-                <Image src="/placeholder.svg?height=550&width=750" alt="Outdoor playground" fill className="object-cover" />
+                <Image src="/img/facility_3.JPG?height=550&width=750" alt="Outdoor playground" fill className="object-cover" />
               </div>
               <div className="relative h-[200px] rounded-lg overflow-hidden">
-                <Image src="/placeholder.svg?height=550&width=750" alt="Nap area" fill className="object-cover" />
+                <Image src="/img/facility_4.JPG?height=550&width=750" alt="Nap area" fill className="object-cover" />
               </div>
             </div>
           </div>

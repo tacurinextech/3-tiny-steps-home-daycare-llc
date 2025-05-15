@@ -43,7 +43,7 @@ export const programs = [
     age: "6 weeks - 18 months",
     description:
       "Nurturing care for our youngest children with personalized attention to support their developmental milestones.",
-    image: "/program-infant.jpg",
+    image: "/img/infant_care.png",
     features: [
       "Low child-to-caregiver ratio (3:1)",
       "Daily reports on feeding, napping, and activities",
@@ -55,7 +55,7 @@ export const programs = [
     title: "Toddler Program",
     age: "18 months - 3 years",
     description: "Active learning experiences that encourage exploration, language development, and social skills.",
-    image: "/program-toddler.jpg",
+    image: "/img/toddler_program.png",
     features: [
       "Potty training support",
       "Language-rich environment",
@@ -67,7 +67,7 @@ export const programs = [
     title: "Preschool",
     age: "3 - 5 years",
     description: "Comprehensive curriculum preparing children for kindergarten through play-based learning.",
-    image: "/program-preschool.jpg",
+    image: "/img/preschool.png",
     features: [
       "Pre-reading and math foundations",
       "Social-emotional development",

@@ -16,15 +16,26 @@ export default function Gallery() {
   const [activeCategory, setActiveCategory] = useState<string>("all")
 
   const galleryImages: GalleryImage[] = [
-    { id: 1, src: "/placeholder.svg?height=550&width=750", alt: "Children playing with blocks", category: "activities" },
-    { id: 2, src: "/placeholder.svg?height=550&width=750", alt: "Art and craft session", category: "activities" },
-    { id: 3, src: "/placeholder.svg?height=550&width=750", alt: "Outdoor playground", category: "facility" },
-    { id: 4, src: "/placeholder.svg?height=550&width=750", alt: "Reading corner", category: "facility" },
-    { id: 5, src: "/placeholder.svg?height=550&width=750", alt: "Children during circle time", category: "activities" },
-    { id: 6, src: "/placeholder.svg?height=550&width=750", alt: "Nap time area", category: "facility" },
-    { id: 7, src: "/placeholder.svg?height=550&width=750", alt: "Children playing outside", category: "activities" },
-    { id: 8, src: "/placeholder.svg?height=550&width=750", alt: "Lunch time", category: "activities" },
-    { id: 9, src: "/placeholder.svg?height=550&width=750", alt: "Daycare entrance", category: "facility" },
+    { id: 1, src: "/img/facility_1.jpg", alt: "Fire extinguisher", category: "facility" },
+    { id: 2, src: "/img/activities_1.jpg", alt: "Reading book to child", category: "activities" },
+    { id: 3, src: "/img/facility_2.jpg", alt: "Toys and games", category: "facility" },
+    { id: 4, src: "/img/activities_2.jpg", alt: "Children drawing on white board", category: "activities" },
+    { id: 5, src: "/img/facility_3.jpg", alt: "Toys, child sofa, and alphabet carpet", category: "facility" },
+    { id: 6, src: "/img/activities_3.jpg", alt: "Children playing", category: "activities" },
+    { id: 7, src: "/img/facility_4.jpg", alt: "Toys and books", category: "facility" },
+    { id: 8, src: "/img/activities_4.jpg", alt: "Toddler crawling", category: "activities" },
+    { id: 9, src: "/img/facility_5.jpg", alt: "Totes on hooks", category: "facility" },
+    { id: 10, src: "/img/activities_5.jpg", alt: "toddler playing with blocks", category: "activities" },
+    { id: 11, src: "/img/facility_6.jpg", alt: "Number Carpet", category: "facility" },
+    { id: 12, src: "/img/activities_6.jpg", alt: "Toddler drawing", category: "activities" },
+    { id: 13, src: "/img/facility_7.jpg", alt: "Alphabet board", category: "facility" },
+    { id: 14, src: "/img/activities_7.jpg", alt: "Toddler reading", category: "activities" },
+    { id: 15, src: "/img/facility_8.jpg", alt: "Toy cards", category: "facility" },
+    { id: 16, src: "/img/activities_8.jpg", alt: "Thanksgiving cards made by children", category: "activities" },
+    { id: 17, src: "/img/activities_9.jpg", alt: "Toddler making Thanksgiving card", category: "activities" },
+    { id: 18, src: "/img/activities_10.jpg", alt: "Children reading", category: "activities" },
+    { id: 19, src: "/img/activities_11.jpg", alt: "Children playing", category: "activities" },
+
   ]
 
   const categories = ["all", "activities", "facility"]
@@ -64,14 +75,22 @@ export default function Gallery() {
 
       {/* Image Modal */}
       {selectedImage && (
-        <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
+        <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+        onClick={() => setSelectedImage(null)}>
           <button
-            onClick={() => setSelectedImage(null)}
+            // onClick={() => setSelectedImage(null)}
+            onClick={(e) => {
+              e.stopPropagation(); // Prevent the overlay click from triggering
+              setSelectedImage(null);
+            }}
             className="absolute right-4 top-4 z-10 rounded-full bg-white/80 p-2 hover:bg-white transition-colors"
           >
             <X className="h-6 w-6" />
           </button>
-          <div className="relative h-[80vh] w-full max-w-4xl">
+          <div 
+            className="relative h-[80vh] w-full max-w-4xl"
+            onClick={(e) => e.stopPropagation()}
+          >
             <Image
               src={selectedImage.src || "/placeholder.svg"}
               alt={selectedImage.alt}

@@ -12,7 +12,7 @@ export default function Home() {
         <section className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/5 dark:from-primary/30 dark:to-primary/10 z-10" />
           <div className="relative h-[500px] w-full">
-            <Image src="/placeholder.svg?height=550&width=750" alt="Happy children playing" fill className="object-cover" priority />
+            <Image src="/cover.png?height=550&width=750" alt="Happy children playing" fill className="object-cover" priority />
           </div>
           <div className="absolute inset-0 flex items-center z-20">
             <div className="container max-w-7xl mx-auto px-8">
@@ -132,7 +132,7 @@ export default function Home() {
                 </div>
                 <div className="relative h-[400px] rounded-lg overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=100&width=100"
+                    src="/img/home_img_2.jpg"
                     alt="Children engaged in activities"
                     fill
                     className="object-cover"

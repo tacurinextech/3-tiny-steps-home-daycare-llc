@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { X } from "lucide-react"
 import Link from "next/link"
+// import Image from "next/image"
 import { config } from "../config/constants"
 import { usePathname } from "next/navigation"
 
@@ -55,6 +56,7 @@ export default function Navbar() {
             // onClick={(e) => handleNavClick(e, "top")}
 
             >
+            {/* <Image src="/logo2.jpg.png?height=550&width=750" alt={`${config.COMPANY.ALIAS} Logo`} width={40} height={40} className="h-10 w-10" /> */}
             <span>{config.COMPANY.ALIAS}</span>
             </Link>
         </div>

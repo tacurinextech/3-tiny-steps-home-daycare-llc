@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Image src="/placeholder.svg?height=550&width=750" alt={`${config.COMPANY.ALIAS} Logo`} width={40} height={40} className="h-10 w-10" />
+              <Image src="/logo.jpg.png?height=550&width=750" alt={`${config.COMPANY.ALIAS} Logo`} width={40} height={40} className="h-10 w-10" />
               <span className="text-xl font-bold">{config.COMPANY.ALIAS}</span>
             </div>
             <p className="text-slate-300">
