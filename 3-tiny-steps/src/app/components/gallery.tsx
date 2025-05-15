@@ -16,13 +16,13 @@ export default function Gallery() {
   const [activeCategory, setActiveCategory] = useState<string>("all")
 
   const galleryImages: GalleryImage[] = [
-    { id: 1, src: "/img/facility_1.jpg", alt: "Fire extinguisher", category: "facility" },
+    { id: 1, src: "/img/facility_1.JPG", alt: "Fire extinguisher", category: "facility" },
     { id: 2, src: "/img/activities_1.jpg", alt: "Reading book to child", category: "activities" },
-    { id: 3, src: "/img/facility_2.jpg", alt: "Toys and games", category: "facility" },
+    { id: 3, src: "/img/facility_2.JPG", alt: "Toys and games", category: "facility" },
     { id: 4, src: "/img/activities_2.jpg", alt: "Children drawing on white board", category: "activities" },
-    { id: 5, src: "/img/facility_3.jpg", alt: "Toys, child sofa, and alphabet carpet", category: "facility" },
+    { id: 5, src: "/img/facility_3.JPG", alt: "Toys, child sofa, and alphabet carpet", category: "facility" },
     { id: 6, src: "/img/activities_3.jpg", alt: "Children playing", category: "activities" },
-    { id: 7, src: "/img/facility_4.jpg", alt: "Toys and books", category: "facility" },
+    { id: 7, src: "/img/facility_4.JPG", alt: "Toys and books", category: "facility" },
     { id: 8, src: "/img/activities_4.jpg", alt: "Toddler crawling", category: "activities" },
     { id: 9, src: "/img/facility_5.jpg", alt: "Totes on hooks", category: "facility" },
     { id: 10, src: "/img/activities_5.jpg", alt: "toddler playing with blocks", category: "activities" },
