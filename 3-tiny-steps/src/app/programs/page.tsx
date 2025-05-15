@@ -21,9 +21,11 @@ export default function ProgramsPage() {
               <div key={index} className="bg-white dark:bg-gray-700 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 overflow-hidden">
                 <div className="relative h-48">
                   <Image 
-                  src={program.image || "/placeholder.svg"} 
-                // src="/placeholder?height=550&width=750"
-                  alt={program.title} fill className="object-cover" />
+                    src={program.image || "/placeholder.svg"} 
+                  // src="/placeholder?height=550&width=750"
+                    alt={program.title} fill className="object-cover" 
+                    unoptimized={false} // Let CDN handle optimization
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-medium text-primary mb-2">{program.title}</h3>
