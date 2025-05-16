@@ -66,7 +66,7 @@ export default function ContactPage() {
                     <iframe
                         width="100%"
                         height="600"
-                        src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=+(3%20Tiny%20Steps%20Home%20Daycare)&t=&z=17&ie=UTF8&iwloc=B&output=embed"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=18%20Chipping%20Ln%20Norwalk,%20CT%20%2006854+(3%20Tiny%20Steps)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                         title="3 Tiny Steps Home Daycare Location"
                         loading="lazy"
                         className="w-full h-full border-0"
