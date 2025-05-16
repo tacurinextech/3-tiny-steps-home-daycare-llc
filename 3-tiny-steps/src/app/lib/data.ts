@@ -18,7 +18,7 @@ export const testimonials = [
 
 export const team = [
   {
-    name: "Sarah Johnson",
+    name: "Libia Brito",
     role: "Owner & Director",
     bio: "Certified early childhood educator with 15+ years of experience and a passion for child development.",
     image: "/team-1.jpg",
@@ -40,7 +40,7 @@ export const team = [
 export const programs = [
   {
     title: "Infant Care",
-    age: "6 weeks - 18 months",
+    age: "8 weeks - 18 months",
     description:
       "Nurturing care for our youngest children with personalized attention to support their developmental milestones.",
     image: "/img/infant_care.png",
@@ -136,7 +136,7 @@ export const plans = [
     price: "175",
     schedule: "2-3 days per week",
     features: [
-      "All meals and snacks included",
+      "Snacks included",
       "Weekly progress updates",
       "Flexible scheduling options",
       "Access to parent portal",
@@ -147,7 +147,7 @@ export const plans = [
     price: "250",
     schedule: "5 days per week",
     features: [
-      "All meals and snacks included",
+      "Snacks included",
       "Weekly progress updates",
       "Priority enrollment for special events",
       "Extended hours available",
@@ -159,7 +159,7 @@ export const plans = [
     price: "65",
     schedule: "Per day, as needed",
     features: [
-      "All meals and snacks included",
+      "Snacks included",
       "24-hour advance notice required",
       "Subject to availability",
       "Perfect for occasional care needs",

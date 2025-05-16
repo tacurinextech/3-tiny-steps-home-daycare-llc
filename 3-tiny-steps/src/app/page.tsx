@@ -74,7 +74,7 @@ export default function Home() {
                 <div className="bg-white dark:bg-gray-700 rounded-lg shadow-sm border border-gray-200 dark:border-gray-600 p-6">
                   <div className="flex flex-col items-center text-center space-y-2">
                     <CheckCircle className="h-12 w-12 text-primary dark:text-primary mb-2" />
-                    <h3 className="text-xl font-medium dark:text-white">Certified Staff</h3>
+                    <h3 className="text-xl font-medium dark:text-white">Trained Staff</h3>
                     <p className="text-gray-600 dark:text-gray-300">
                       Our experienced caregivers are trained in early childhood education and first aid.
                     </p>
